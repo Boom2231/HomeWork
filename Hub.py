@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher
 import handlers.text_handlers
 
 async def main():
-    bot = Bot("8054591990:AAFl7iG9E3vYBmaDyEtphwtn0DdKiVCvWew")
+    bot = Bot("token")
     dp = Dispatcher()
 
     dp.include_router(handlers.text_handlers.router)
